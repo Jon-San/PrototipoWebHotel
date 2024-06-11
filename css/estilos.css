@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,300;1,400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+}
+
+/*inicio*/
+.Iam {
+	padding: 15% 15%;
+	font: normal 80px/100px Montserrat, sans-serif;
+	color: #fff;
+	height: 100px;
+}
+  .Iam p {
+	height: 50px;
+	float: left;
+	margin-right: 0.4em;
+	font-weight: bold;
+	width: 100%;  
+
+	
+  }
+  .Iam b {
+	float: left;
+	overflow: hidden;
+	position: relative;
+	height: 100px;
+	top: 40px;
+  }
+  .Iam .innerIam {
+	display: inline-block;
+	color: #BF5517;
+	position: relative;
+	white-space: nowrap;
+	top: 0;
+	left: 0;
+	font-weight: bold;
+  
+  
+  /*animation*/
+  -webkit-animation:move 5s;
+	 -moz-animation:move 5s;
+	  -ms-animation:move 5s;
+	   -o-animation:move 5s;
+		  animation:move 5s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count:infinite;
+	 -moz-animation-iteration-count:infinite;
+	  -ms-animation-iteration-count:infinite;
+	   -o-animation-iteration-count:infinite;
+		  animation-iteration-count:infinite;
+  /*animation-delay*/
+  -webkit-animation-delay:1s;
+	 -moz-animation-delay:1.5s;
+	  -ms-animation-delay:1.5s;
+	   -o-animation-delay:1.5s;
+		  animation-delay:1.5s;
+  }
+  @keyframes move{
+  0%  { top: 0px; }
+  20% { top: -100px; }
+  40% { top: -200px; }
+  60% { top: -3000px; }
+  80% { top: -400px; }
+  }
+  
+  @-webkit-keyframes move {
+	  0%  { top: 0px; }
+	  20% { top: -100px; }
+	  40% { top: -200px; }
+	  60% { top: -300px; }
+	  80% { top: -400px; }
+  }
+  @-moz-keyframes move {
+	  0%  { top: 0px; }
+	  20% { top: -100px; }
+	  40% { top: -200px; }
+	  60% { top: -300px; }
+	  80% { top: -400px; }
+  }
+  @-o-keyframes move {
+	  0%  { top: 0px; }
+	  20% { top: -100px; }
+	  40% { top: -200px; }
+	  60% { top: -300px; }
+	  80% { top: -400px; }
+  }
+  @keyframes move {
+	  0%  { top: 0px; }
+	  20% { top: -100px; }
+	  40% { top: -200px; }
+	  60% { top: -300px; }
+	  80% { top: -400px; }
+  }
+  /*fin de cabera*/
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.servicios{
+	background-color: black;
+	color: white;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a4393179, #1d43509d),url(../img/INICIO.gif); 
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a4393180, #1d435080),url(../img/INICIO.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+	
+}
+
+.logo-header{
+    padding: 0 0;
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+	padding-left: 10px;
+    
+}
+.textos-header{
+    padding: 25% 100;
+
+
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;;
+	padding: 10px;
+}
+nav{
+   text-align: right;
+   padding: 30px 40px; 
+   border: none;
+   background-color: #000000;
+}
+nav>a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px ;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+    color:#BF5517;
+ 
+}
+.base{
+    padding: 10px 50px; 
+    background-color:#BF5517;
+}
+/*PORTAFOLIO*/
+.portafolio {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: flex;
+	gap: 20px;
+	
+}
+h1{
+	padding: 15px;
+}
+h4, p{
+	color: white;
+}
+.portafolio-conciertos{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	width: calc(33.33% - 20px);
+	
+}
+.card .textos {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
+	
+}
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
+/*FIN PORTA*/
+/*SERVICIOS*/
+
+.galeria-port{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 30%;
+	height: 450px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port h1{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria p{
+	text-align: center;
+	padding: 5px;
+}
+.hover-galeria ul li{
+	list-style:none
+}
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(29, 29, 29, 0.726);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	padding: 15px;
+	font-size: 12px;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+.servicios{
+	display: flex;
+	flex-wrap: wrap;
+}
+.mapa{
+	color: #000;
+	flex: 30px;
+	padding: 30px;
+	padding-left: 100px;
+	background-color: #ffffff;
+}
+.ubicacion{
+	color: #000;
+	flex: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+}
+.letra{
+	color: #000;
+}
+
+/*FOOTER*/
+
+.footer-distributed{
+	background: #000;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+div .imagen img{
+	padding-left: 100px;
+	width: 300px;
+	height: 100px;
+	width: 60%;
+	margin-right: 60px;
+}
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #BF5517;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  	font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+	font-weight: bold;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding-left: 130px;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.opiniones{
+	background-color: black;
+	color: white;
+}
+.opiniones .caja-contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.opiniones .caja-contenedor .caja{
+	background: white;
+	margin: 1rem;
+	padding: .1rem;
+	text-align: center;
+	position: relative;
+	border: 1rem solid rgba(0, 0, 0, .2);
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+	flex: 1 1 30rem;
+	border-radius: .4rem;
+}
+.opiniones .caja-contenedor .caja .bxl-sketch{
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+	font-size: 8rem;
+	color: var(--limon);
+	opacity: .3;
+}
+.opiniones .caja-contenedor .caja .user img{
+	border-radius: 50%;
+	object-fit: cover;
+	height: 8rem;
+	width: 8rem;
+	margin-top: 2rem;
+}
+.opiniones .caja-contenedor .caja .user h3{
+	color:rgb(2, 51, 2);
+	font-size: 2rem;
+}
+.opiniones .caja-contenedor .caja .user .stars i{
+	color: rgb(2, 51, 2);
+	font-size: 1.5rem;
+	padding: 1rem 0;
+}
+.opiniones .caja-contenedor .caja .comentarios{
+	color:#666;
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+.headinh{
+	right: 2rem;
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+
